@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+
+body {
+  background-color: #fcfdfd;
+  font-family: 'Open Sans', sans-serif;
+  color: darkslategray;
+  font-weight: 300;
+  display: flex;
+  flex-direction: column ;
+}
+.header {
+  color: #1f1e1e;
+  padding: 50px 80px 50px 80px;
+  background-color: rgb(109,215,204, 0.3);
+  text-align: center;
+}
+.header > h1 {
+  font-size: 60px;
+  font-weight: 400;
+}
+.profileImage {
+  width: 100px;
+  height: auto;
+}
+.projectsDisplay {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  width: 90%;
+  margin: 100px auto;
+}
+.card {
+  background-color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 300px;
+  margin: 0px 20px 0px 20px;
+}
+.card:hover > .overlay{
+  position: absolute;
+  width: 300px;
+  height: 255px;
+  background-color: #000;
+  opacity: 0.1;
+  border-radius: 5px;
+}
+.projectName {
+  color: #1f1e1e;
+  font-size: 30px;
+  font-weight: 300;
+  margin-left: 10px;
+}
+.projectImage {
+  width: 300px;
+  height: 165px;
+}
+footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(109,215,204, 0.3);
+  height: 100px;
+}
+.logosContainer {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  gap: 50px
+}
+.logoImage {
+  width: 50px;
+  height: auto;
+}
+a {
+  text-decoration: none;
+}
+@media only screen and (min-width: 950px){
+  .projectsDisplay {
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 10px;
+  }
+}

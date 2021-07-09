@@ -7,7 +7,7 @@ import github from "./images/github-logo.png"
 import linkedin from "./images/linkedin-logo.png"
 import resume from "./images/resume-and-cv.png"
 import profileImage from "./images/newprofile.png"
-import resumepdf from "./images/resume.pdf"
+import resumepdf from "./images/mia-stroud-resume.pdf"
 
 function App() {
   return (
